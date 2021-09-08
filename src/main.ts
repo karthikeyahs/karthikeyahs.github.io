@@ -10,3 +10,8 @@ if (environment.production) {
 
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
+
+Office.initialize = reason =>{
+  platformBrowserDynamic().bootstrapModule(AppModule)
+            .catch(err => console.error(err));
+};

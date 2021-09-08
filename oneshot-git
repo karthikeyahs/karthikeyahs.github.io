@@ -1,0 +1,4 @@
+ng build
+git add .
+git commit -m "Commit"
+git push -u -f origin main
